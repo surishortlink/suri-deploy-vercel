@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Your own link shortener that's easily deployed as a static site (for free)",
+  "description": "A template repository tailored for deploying Suri to Vercel",
   "homepage": "https://github.com/staticsuri/suri-deploy-vercel#readme",
   "bugs": "https://github.com/staticsuri/suri-deploy-vercel/issues",
   "license": "MIT",
