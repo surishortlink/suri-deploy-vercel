@@ -1,13 +1,13 @@
 {
-  "name": "@suri/deploy-vercel",
+  "name": "@surishortlink/deploy-vercel",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "description": "A template repository tailored for deploying Suri to Vercel",
-  "homepage": "https://github.com/staticsuri/suri-deploy-vercel#readme",
-  "bugs": "https://github.com/staticsuri/suri-deploy-vercel/issues",
+  "homepage": "https://github.com/surishortlink/suri-deploy-vercel#readme",
+  "bugs": "https://github.com/surishortlink/suri-deploy-vercel/issues",
   "license": "MIT",
-  "repository": "staticsuri/suri-deploy-vercel",
+  "repository": "surishortlink/suri-deploy-vercel",
   "scripts": {
     "build": "suri"
   },
