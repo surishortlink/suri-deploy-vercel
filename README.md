@@ -32,6 +32,21 @@ branch by going to the "Settings" of your new project and heading to the
 To use a custom domain, follow Vercel's guide:
 [Adding & Configuring a Custom Domain](https://vercel.com/docs/domains/working-with-domains/add-a-domain).
 
+### Updating Suri
+
+[Dependabot](https://docs.github.com/en/code-security/dependabot) opens a pull
+request in your repository about a week after a new version of Suri is released.
+You can also update it yourself:
+
+```bash
+npm install @surishortlink/suri@latest
+```
+
+Then commit the updated `package.json` and `package-lock.json`. Before updating
+to a new major version, check
+[the release notes](https://github.com/surishortlink/suri/releases) for breaking
+changes.
+
 ## How It Works
 
 ### Manage Links
