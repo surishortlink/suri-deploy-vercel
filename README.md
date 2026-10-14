@@ -22,13 +22,15 @@ deploy. Everything should be correctly configured and ready to go.
 ### Auto-Deploy
 
 Any commits to the `main` branch of your new repository will trigger a new build
-and deploy. You can change this by going to the "Settings" of your new site and
-editing the relevant "Git" options.
+and deploy to production. Pull requests get a preview deployment, so a mistake
+in `links.json` is caught before it's merged. You can change the production
+branch by going to the "Settings" of your new project and heading to the
+"Environments" section.
 
 ### Custom Domain
 
 To use a custom domain, follow Vercel's guide:
-[Adding & Configuring a Custom Domain](https://vercel.com/docs/projects/domains/add-a-domain).
+[Adding & Configuring a Custom Domain](https://vercel.com/docs/domains/working-with-domains/add-a-domain).
 
 ## How It Works
 
@@ -48,8 +50,9 @@ include this file seeded with a few examples:
 
 It couldn't be simpler: the key is the "short link" path that gets redirected,
 and the value is the target URL. Keys can be as short or as long as you want,
-using whatever mixture of characters you want. `/` is a special entry for
-redirecting the root path.
+and can include `/` for nested paths, like `gh/suri`. Avoid `?` and `#`, which
+browsers treat as the start of a query string or fragment. `/` is a special
+entry for redirecting the root path.
 
 ### Build Static Site
 
